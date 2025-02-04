@@ -207,7 +207,7 @@ const projectcards = {
 
     {
       title: "Voice Gender Detection",
-      img_path: "voice.gif",
+      img_path: "",
       description:
         "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
       tags: [
@@ -238,7 +238,7 @@ const projectcards = {
     },
     {
       title: "NeuralViz",
-      img_path: "neural.gif",
+      img_path: "",
       description:
         "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
       tags: [
@@ -269,7 +269,7 @@ const projectcards = {
     },
     {
       title: "Semantic Search APP",
-      img_path: "project-03.png",
+      img_path: "",
       description:
         "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
       tags: [
@@ -288,7 +288,7 @@ const projectcards = {
     },
     {
       title: "Youtube Thumbnail Generator & AutoUploader",
-      img_path: "project-02.png",
+      img_path: "",
       description:
         "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
       tags: [
@@ -308,7 +308,7 @@ const projectcards = {
 
     {
       title: "Newsearcher",
-      img_path: "news.gif",
+      img_path: "",
       description:
         "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
       tags: [
@@ -335,7 +335,7 @@ const projectcards = {
     },
     {
       title: "ActiWeight",
-      img_path: "acti.gif",
+      img_path: "",
       description:
         "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
       tags: [
@@ -372,12 +372,25 @@ const resumeleft = {
         subtitle: "USAID Tunisia JOBS",
         date: "June 2023 - August 2023",
         content: [
-          "My role at Listnr included a lot of research work about Audio Encoders and Vocoders and Speech Synthesis in general.",
-          "Worked on some SOTA Inference TTS Models such as TacoTron2, FastSpeech2, and Wavenet.",
-          "Also had hands-on with real-time voice cloning algorithm.",
+          "Filled out official applications for programs, ensuring accuracy and timeliness.",
+          "Cleaned and processed data, extracting key insights to support decision-making.",
+          "Organized and scheduled social media content, contributing to content strategy and engagement.",
+        ],
+      },
+
+      {
+        title: "Junior Consultant",
+        subtitle: "TBS Junior Enterprise",
+        date: "October 2023 - August 2023",
+        content: [
+          "Conducted surveys, collected & analyzed data, and provided actionable insights & recommendations.",
+          "Implemented SEO best practices, managed newsletters, and optimized content for engagement & visibility.",
+          "Identified ideal customer profiles and analyzed competitors to drive strategic positioning.",
+          "Developed and maintained dashboards to track key marketing metrics and business performance.",
         ],
       },
     ],
+    
   },
 };
 
@@ -415,12 +428,42 @@ const resumeright = {
 const certifications = {
   certifications: [
     {
-      title: "Data Scientist Career Track",
-      subtitle: "DataCamp",
-      logo_path: "datacamp-01.png",
+      title: "Python for Data Science",
+      subtitle: "IBM",
+      logo_path: "IBM-01.png",
       certificate_link:
-        "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
-      alt_name: "DataCamp",
+        "https://www.credly.com/badges/165d1b72-c7b6-49ba-902e-68035fefcbe3/public_url",
+      alt_name: "IBM badge",
+      color_code: "#000000",
+    },
+
+    {
+      title: "Data Analysis Using Python",
+      subtitle: "IBM",
+      logo_path: "IBM-02.png",
+      certificate_link:
+        "https://www.credly.com/badges/e2952aea-3392-42d1-a42e-514d69b82b67/public_url",
+      alt_name: "IBM badge",
+      color_code: "#000000",
+    },
+
+    {
+      title: "Data Visualization Using Python",
+      subtitle: "IBM",
+      logo_path: "IBM-03.png",
+      certificate_link:
+        "https://www.credly.com/badges/e82a902f-d3a9-4143-aea8-4e7cf99ab391/public_url",
+      alt_name: "IBM badge",
+      color_code: "#000000",
+    },
+
+    {
+      title: "Applied Data Science with Python - Level 2",
+      subtitle: "IBM",
+      logo_path: "IBM-04.png",
+      certificate_link:
+        "https://www.credly.com/badges/b15cb10e-5675-4840-ae65-b9a2f169364e/public_url",
+      alt_name: "IBM badge",
       color_code: "#000000",
     },
   ],
@@ -454,7 +497,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/rohankokkula/",
+    link: "https://www.linkedin.com/in/mohamed-achek/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
