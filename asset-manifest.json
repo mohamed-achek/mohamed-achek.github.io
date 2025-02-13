@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "./static/css/main.905f3eab.chunk.css",
+    "main.js": "./static/js/main.a563c2c7.chunk.js",
+    "main.js.map": "./static/js/main.a563c2c7.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c5d536c7.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c5d536c7.js.map",
+    "static/js/2.e4ac62ab.chunk.js": "./static/js/2.e4ac62ab.chunk.js",
+    "static/js/2.e4ac62ab.chunk.js.map": "./static/js/2.e4ac62ab.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.505c75c198ed7c619710902b79244348.js": "./precache-manifest.505c75c198ed7c619710902b79244348.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.905f3eab.chunk.css.map": "./static/css/main.905f3eab.chunk.css.map",
+    "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/IBM-01.png": "./static/media/IBM-01.26d440f8.png",
+    "static/media/IBM-02.png": "./static/media/IBM-02.f517fff0.png",
+    "static/media/IBM-03.png": "./static/media/IBM-03.fe268165.png",
+    "static/media/IBM-04.png": "./static/media/IBM-04.961af905.png",
+    "static/media/all.css": "./static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/logo-01.png": "./static/media/logo-01.bfd2399e.png",
+    "static/media/pdp.png": "./static/media/pdp.eacb2a58.png",
+    "static/media/project-01.png": "./static/media/project-01.535eb6d2.png",
+    "static/media/project-02.gif": "./static/media/project-02.c4581df8.gif",
+    "static/media/project-03.gif": "./static/media/project-03.4ed2b38b.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5d536c7.js",
+    "static/js/2.e4ac62ab.chunk.js",
+    "static/css/main.905f3eab.chunk.css",
+    "static/js/main.a563c2c7.chunk.js"
+  ]
+}
