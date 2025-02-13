@@ -20,23 +20,18 @@ export default function Greeting(props) {
                 {greeting.title}
               </h1>
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
-                I'm <mark data-entity="person">{greeting.sub}</mark>
+                I'm <mark data-entity="">{greeting.sub}</mark>
               </h1>
               <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("IT/BA Junior Student at TBS ")
-                      .pauseFor(200)
-                      .deleteAll()
-                      .typeString("Data Science Enthusiast")
-                      .pauseFor(200)
+                      .typeString("Data Science")
+                      .pauseFor(2000)
                       .deleteAll()
                       .typeString("AI & ML Learner")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("")
-                      .pauseFor(200)
                       .start();
                   }}
                   options={{

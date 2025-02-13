@@ -29,7 +29,7 @@ class BannerImg extends Component {
     return (
       <div className="App">
         <div className="container">
-          <img src={banner} alt="" width="550" />
+          <img src={banner} alt="" width="500" />
         </div>
       </div>
     );
