@@ -43,12 +43,26 @@ class Projects extends Component {
         <div className="repo-cards-div-main">
           <CardColumns>
             {projectcards.list.map((proj) => {
+              const isVideo = proj.img_path.endsWith('.mp4') || proj.img_path.endsWith('.webm');
               return (
                 <Card className="h-100">
-                  <Card.Img
-                    variant="top"
-                    src={require(`../../assets/projects/${proj.img_path}`)}
-                  />
+                  {isVideo ? (
+                    <video
+                      style={{ width: '100%', height: 'auto' }}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                    >
+                      <source src={require(`../../assets/projects/${proj.img_path}`)} type={`video/${proj.img_path.split('.').pop()}`} />
+                      Your browser does not support the video tag.
+                    </video>
+                  ) : (
+                    <Card.Img
+                      variant="top"
+                      src={require(`../../assets/projects/${proj.img_path}`)}
+                    />
+                  )}
                   <Card.Body>
                     <Card.Title>
                       <h2 style={{ lineHeight: "1.5", marginTop: "0" }}>

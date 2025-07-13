@@ -27,7 +27,7 @@ export default function Greeting(props) {
                   onInit={(typewriter) => {
                     typewriter
                       .typeString("Data Science")
-                      .pauseFor(2000)
+                      .pauseFor(200)
                       .deleteAll()
                       .typeString("AI & ML Learner")
                       .pauseFor(200)

@@ -252,6 +252,72 @@ const projectcards = {
       code: "https://github.com/sajaa45/Car-Resale-Data-Analysis-Management-System.git",
       linkcolor: "white",
     },
+
+    {
+      title: "Donœur",
+      img_path: "donneur gif.gif",
+      description:
+        "Donœur is an Android app built with Kotlin and Jetpack Compose, connecting blood donors and recipients in local communities. Using Firebase for authentication and real-time data, it offers donation requests, profile management, messaging, and a blood compatibility checker. With a modern UI and robust testing, it’s a scalable solution to enhance blood donation accessibility.",
+      tags: [
+        {
+          lang: "Kotlin",
+          color: "#004782",
+        },
+        {
+          lang: "Firebase",
+          color: "#4257f5",
+        },
+      ],  
+      code: "https://github.com/mohamed-achek/Donneur.git",
+      linkcolor: "white",
+    },
+
+    {
+      title: "Flower Pollination Algorithm",
+      img_path: "comparison_animation.gif",
+      description:
+        "The Flower Pollination Algorithm (FPA) project compares FPA, Simulated Annealing, and Genetic Algorithm for solving the Traveling Salesman Problem with 25 cities.Implemented in Python with a Streamlit interface for interactive visualization.",
+      tags: [
+        {
+          lang: "Python",
+          color: "#004782",
+        },
+        {
+          lang: "",
+          color: "#4257f5",
+        },
+      ],  
+      code: "https://github.com/mohamed-achek/FlowerPollinationAlgorithm.git",
+      linkcolor: "blue",
+    },
+
+
+    {
+      title: "CypherSafe",
+      img_path: "CypherSafe.mp4",
+      description:
+      "CypherSafe is a Python-based tool for secure file, image, and video encryption, featuring AES, Fernet, DES, RSA, and ECC (demo) encryption, AI-driven video face encryption using MediaPipe, partial image encryption, SHA-256/512 and MD5 hashing, and RSA/ECC digital signatures. It includes a face login feature for enhanced user authentication, leveraging facial recognition for secure access. The intuitive Streamlit web UI enables easy region selection for image encryption and single-click video processing.",
+        tags: [
+        {
+          lang: "Python",
+          color: "#004782",
+        },
+        {
+          lang: "",
+          color: "#4257f5",
+        },
+      ],  
+      code: "https://github.com/mohamed-achek/CypherSafe.git",
+      linkcolor: "blue",
+    },
+
+
+
+
+
+
+
+
   ],
 };
 
