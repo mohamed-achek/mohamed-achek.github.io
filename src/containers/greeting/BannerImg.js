@@ -1,7 +1,7 @@
 //import lottie from 'lottie-web';
 import React from "react";
 import { Component } from "react";
-import banner from "./pdp.png";
+import banner from "./image.png";
 
 /*
 //for animated svgs use json file

@@ -196,13 +196,9 @@ const projectcards = {
           lang: "Python",
           color: "#004782",
         },
-        {
-          lang: "",
-          color: "#4257f5",
-        },
       ],  
       code: "https://github.com/mohamed-achek/UrbanFlowAI.git",
-      linkcolor: "white",
+      linkcolor: "blue",
       link: "https://urbanflow.streamlit.app/",
     },
 
@@ -304,13 +300,10 @@ const projectcards = {
           lang: "Python",
           color: "#004782",
         },
-        {
-          lang: "",
-          color: "#4257f5",
-        },
+       
       ],  
       code: "https://github.com/mohamed-achek/FlowerPollinationAlgorithm.git",
-      linkcolor: "blue",
+      linkcolor: "white",
     },
 
 
@@ -324,13 +317,10 @@ const projectcards = {
           lang: "Python",
           color: "#004782",
         },
-        {
-          lang: "",
-          color: "#4257f5",
-        },
+        
       ],  
       code: "https://github.com/mohamed-achek/CypherSafe.git",
-      linkcolor: "blue",
+      linkcolor: "white",
     },
 
 
