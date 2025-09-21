@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e22578f6.chunk.css",
-    "main.js": "/static/js/main.f7c3ed3e.chunk.js",
-    "main.js.map": "/static/js/main.f7c3ed3e.chunk.js.map",
+    "main.js": "/static/js/main.d9deb668.chunk.js",
+    "main.js.map": "/static/js/main.d9deb668.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c60692a.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c60692a.js.map",
-    "static/js/2.7867bb97.chunk.js": "/static/js/2.7867bb97.chunk.js",
-    "static/js/2.7867bb97.chunk.js.map": "/static/js/2.7867bb97.chunk.js.map",
+    "static/js/2.e9ea6d3e.chunk.js": "/static/js/2.e9ea6d3e.chunk.js",
+    "static/js/2.e9ea6d3e.chunk.js.map": "/static/js/2.e9ea6d3e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8e6da629989d118cd46158786bd0f3fc.js": "/precache-manifest.8e6da629989d118cd46158786bd0f3fc.js",
+    "precache-manifest.7884df24e250b746495b39afaf2e1a52.js": "/precache-manifest.7884df24e250b746495b39afaf2e1a52.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e22578f6.chunk.css.map": "/static/css/main.e22578f6.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
@@ -20,16 +20,17 @@
     "static/media/comparison_animation.gif": "/static/media/comparison_animation.159bbbea.gif",
     "static/media/donneur gif.gif": "/static/media/donneur gif.f05cfc61.gif",
     "static/media/all.css": "/static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/image.png": "/static/media/image.48d17602.png",
     "static/media/logo-01.png": "/static/media/logo-01.bfd2399e.png",
-    "static/media/pdp.png": "/static/media/pdp.eacb2a58.png",
     "static/media/project-01.png": "/static/media/project-01.535eb6d2.png",
     "static/media/project-02.gif": "/static/media/project-02.c4581df8.gif",
-    "static/media/project-03.gif": "/static/media/project-03.4ed2b38b.gif"
+    "static/media/project-03.gif": "/static/media/project-03.4ed2b38b.gif",
+    "static/media/urbanflow.png": "/static/media/urbanflow.4a28eec4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2c60692a.js",
-    "static/js/2.7867bb97.chunk.js",
+    "static/js/2.e9ea6d3e.chunk.js",
     "static/css/main.e22578f6.chunk.css",
-    "static/js/main.f7c3ed3e.chunk.js"
+    "static/js/main.d9deb668.chunk.js"
   ]
 }
