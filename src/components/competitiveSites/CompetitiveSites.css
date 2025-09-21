@@ -20,3 +20,48 @@
 .competitive-sites-inline > i:hover {
   color: #645beb;
 }
+
+.competitive-sites-main-div {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+/* Mobile responsiveness for competitive sites */
+@media (max-width: 768px) {
+  .dev-icons {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .competitive-sites-inline {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .competitive-sites-main-div {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .dev-icons {
+    font-size: 2.2rem;
+  }
+  
+  .competitive-sites-inline {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .dev-icons {
+    font-size: 2rem;
+  }
+  
+  .competitive-sites-inline {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}

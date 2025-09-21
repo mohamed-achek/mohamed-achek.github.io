@@ -26,7 +26,7 @@ export default function Greeting(props) {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Science")
+                      .typeString("Data Science Enthusiast")
                       .pauseFor(200)
                       .deleteAll()
                       .typeString("AI & ML Learner")
@@ -47,16 +47,22 @@ export default function Greeting(props) {
                 <div className="entities">
                   A{" "}
                   <mark data-entity="education">
-                    Junior IT & Business Analytics Student
+                    Senior IT & Business Analytics Student
                   </mark>{" "}
-                  who thrives to{" "}
-                  <mark data-entity="skill">leverage AI and Data Science</mark>{" "}
-                  to create value and drive impactful solutions.{" "}
+                  passionate about applying{""}
+                  <mark data-entity="skill">Data science and AI</mark>{" "}
+                  to solve real-world problems, optimize<br /> decision-making, and create
+  impactful data-driven solutions.
                 </div>
               </span>
-              <CompetitiveSites logos={competitiveSites.competitiveSites} />
+              <div style={{ marginTop: "20px", marginBottom: "10px" }}>
+                <CompetitiveSites logos={competitiveSites.competitiveSites} />
+              </div>
               <div className="button-greeting-div">
-                <Button text="Contact me" href="/contact" />
+                <Button 
+                  text="Contact me" 
+                  href="/contact" 
+                />
                 <Button
                   text="See my resume"
                   newTab={true}

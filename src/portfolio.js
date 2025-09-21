@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
@@ -6,7 +8,7 @@ const settings = {
 const seo = {
   title: "Mohamed Achek | Portfolio",
   description:
-    "An IT and Business Analytics junior student passionate about leveraging AI and data science to drive innovation and empower data-driven decision-making.",
+    "An IT and Business Analytics Senior student passionate about leveraging AI and data science to drive innovation and empower data-driven decision-making.",
   og: {
     title: "Mohamed Achek",
     type: "website",
@@ -20,7 +22,7 @@ const greeting = {
   sub: "Mohamed Achek",
   logo_name: "Mohamed Achek",
   resumeLink:
-    "https://drive.google.com/file/d/175CwaBelyhZat_AHTlMoRfMgERDRSloz/view?usp=sharing",
+    "https://drive.google.com/file/d/1pfKLIGprG-k3QT6QBEeLIn_COk5CQXLj/view?usp=sharing",
 };
 
 // home logos
@@ -116,7 +118,7 @@ const skills = {
       ],
     },
     {
-      title: "Web Development",
+      title: "Data Science",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive websites using HTML5, CSS3,  ReactJS",
@@ -184,6 +186,26 @@ const projectsHeader = {
 // colors:[primary,secondary,success,danger,warning,info,light,dark,]
 const projectcards = {
   list: [
+    {
+      title: "UrbanFlow",
+      img_path: "urbanflow.png",
+      description:
+        "UrbanFlow AI is a machine learning project that forecasts bike-sharing demand in New York City by combining Citi Bike, weather, and traffic data. It delivers 24-hour predictions through an interactive Streamlit dashboard with advanced analytics and an AI chatbot for natural language insights, showcasing skills in data integration, time series forecasting, and model explainability.",
+      tags: [
+        {
+          lang: "Python",
+          color: "#004782",
+        },
+        {
+          lang: "",
+          color: "#4257f5",
+        },
+      ],  
+      code: "https://github.com/mohamed-achek/UrbanFlowAI.git",
+      linkcolor: "white",
+      link: "https://urbanflow.streamlit.app/",
+    },
+
     {
       title: "STEG - Energy Management API",
       img_path: "project-01.png",
@@ -325,6 +347,18 @@ const resumeleft = {
   left: {
     title: ["Experience"],
     data: [
+      {
+          "title": "AI Developer",
+          "subtitle": "Digital Bundle · Internship",
+          "date": "July 2025 - September 2025",
+          "content": [
+            "Built an AI-powered landing page builder tailored to platform needs.",
+            "Developed the text generation module, creating clear, engaging, and adaptive content.",
+            "Implemented AI-driven image generation to produce dynamic visuals for landing pages.",
+            "Integrated text and image generation workflows to deliver a cohesive user experience."
+          ]
+        },
+
       {
         title: "WorkForce Development Intern",
         subtitle: "USAID Tunisia JOBS",
