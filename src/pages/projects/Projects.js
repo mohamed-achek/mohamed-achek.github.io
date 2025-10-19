@@ -97,7 +97,7 @@ class Projects extends Component {
                         </a>
                       </h2>
                     </Card.Title>
-                    <div>
+                    {/* <div>
                       {proj.tags.map((demo2) => {
                         return (
                           <Badge
@@ -111,7 +111,7 @@ class Projects extends Component {
                           </Badge>
                         );
                       })}
-                    </div>
+                    </div> */}
                     <div
                       className="text-center"
                       style={{ marginTop: "20px" }}

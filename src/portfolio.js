@@ -18,11 +18,11 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Welcome aboard!",
+  title: "",
   sub: "Mohamed Achek",
   logo_name: "Mohamed Achek",
   resumeLink:
-    "https://drive.google.com/file/d/1pfKLIGprG-k3QT6QBEeLIn_COk5CQXLj/view?usp=sharing",
+    "https://drive.google.com/file/d/1EbdhhvlgFJanJvdMalT-JQlFic9vDSao/view?usp=sharing",
 };
 
 // home logos
@@ -190,15 +190,15 @@ const projectcards = {
       title: "UrbanFlow",
       img_path: "urbanflow.png",
       description:
-        "UrbanFlow AI is a machine learning project that forecasts bike-sharing demand in New York City by combining Citi Bike, weather, and traffic data. It delivers 24-hour predictions through an interactive Streamlit dashboard with advanced analytics and an AI chatbot for natural language insights, showcasing skills in data integration, time series forecasting, and model explainability.",
+        "Predict NYC bike-sharing demand using machine learning, with a Streamlit dashboard for 24-hour forecasts.",
       tags: [
         {
-          lang: "Python",
-          color: "#004782",
+          lang: "",
+          color: "",
         },
       ],  
       code: "https://github.com/mohamed-achek/UrbanFlowAI.git",
-      linkcolor: "blue",
+      linkcolor: "white",
       link: "https://urbanflow.streamlit.app/",
     },
 
@@ -206,27 +206,35 @@ const projectcards = {
       title: "STEG - Energy Management API",
       img_path: "project-01.png",
       description:
-        "I developed a RESTful API for STEG, Tunisia's energy provider, to modernize energy management with features like real-time outage heatmaps, carbon footprint tracking, and LSTM-based consumption forecasting. Built with Flask and React, the API ensures secure, scalable, and efficient energy data handling.",
+        "A Flask-React RESTful API for Tunisia’s energy provider, featuring real-time outage heatmaps, carbon tracking, and LSTM-based consumption forecasting.",
       tags: [
         {
-          lang: "flask",
-          color: "#004782",
+          lang: "",
+          color: "",
         },
         {
-          lang: "React",
-          color: "#820032",
+          lang: "",
+          color: "",
         },
         {
-          lang: "SQLite",
-          color: "#00a100",
+          lang: "",
+          color: "",
         },
         {
-          lang: "MAPS API",
-          color: "#ff4b4b",
+          lang: "",
+          color: "",
         },
         {
-          lang: "Render",
-          color: "#3c0095",
+          lang: "",
+          color: "",
+        },
+        {
+          lang: " ",
+          color: "",
+        },
+        {
+          lang: "",
+          color: "",
         },
       ],
       code: "https://github.com/mohamed-achek/STEG_API.git",
@@ -237,15 +245,15 @@ const projectcards = {
       title: "WinEdge",
       img_path: "project-02.gif",
       description:
-        "I built a Tkinter-based desktop app that automates ETL by collecting, cleaning, and transforming data from multiple sources. Using scikit-learn, it trains a machine learning model to predict next year’s sales.",
+        "A desktop tool that automates data collection, cleaning, and transformation, then predicts next year’s sales using scikit-learn.",
       tags: [
         {
-          lang: "Python",
-          color: "#004782",
+          lang: "",
+          color: "",
         },
         {
-          lang: "Scikit-learn",
-          color: "#4257f5",
+          lang: "",
+          color: "",
         },
       ],  
       code: "https://github.com/mohamed-achek/WinEdge.git",
@@ -256,15 +264,15 @@ const projectcards = {
       title: "Car Resale Data Analysis Management System",
       img_path: "project-03.gif",
       description:
-        "I developed a car resale price prediction system using Java, JavaFX, and machine learning. The system handled data ingestion, analysis, and visualization, integrating ML models to improve price estimation accuracy.",
+        "A JavaFX-based system that analyzes car data and uses machine learning to accurately predict resale prices.",
       tags: [
         {
-          lang: "Java",
-          color: "#004782",
+          lang: "",
+          color: "",
         },
         {
-          lang: "MySQL",
-          color: "#4257f5",
+          lang: "",
+          color: "",
         },
       ],
       code: "https://github.com/sajaa45/Car-Resale-Data-Analysis-Management-System.git",
@@ -273,17 +281,17 @@ const projectcards = {
 
     {
       title: "Donœur",
-      img_path: "donneur gif.gif",
+      img_path: "img.png",
       description:
-        "Donœur is an Android app built with Kotlin and Jetpack Compose, connecting blood donors and recipients in local communities. Using Firebase for authentication and real-time data, it offers donation requests, profile management, messaging, and a blood compatibility checker. With a modern UI and robust testing, it’s a scalable solution to enhance blood donation accessibility.",
+        "A Kotlin Android app connecting blood donors and recipients through real-time Firebase integration, featuring donation requests, messaging, and a blood compatibility checker.",
       tags: [
         {
-          lang: "Kotlin",
-          color: "#004782",
+          lang: "",
+          color: "",
         },
         {
-          lang: "Firebase",
-          color: "#4257f5",
+          lang: "",
+          color: "",
         },
       ],  
       code: "https://github.com/mohamed-achek/Donneur.git",
@@ -294,11 +302,11 @@ const projectcards = {
       title: "Flower Pollination Algorithm",
       img_path: "comparison_animation.gif",
       description:
-        "The Flower Pollination Algorithm (FPA) project compares FPA, Simulated Annealing, and Genetic Algorithm for solving the Traveling Salesman Problem with 25 cities.Implemented in Python with a Streamlit interface for interactive visualization.",
+        "A Streamlit app comparing Flower Pollination, Simulated Annealing, and Genetic Algorithms to solve the Traveling Salesman Problem with 25 Tunisian cities.",
       tags: [
         {
-          lang: "Python",
-          color: "#004782",
+          lang: "",
+          color: "",
         },
        
       ],  
@@ -309,13 +317,13 @@ const projectcards = {
 
     {
       title: "CypherSafe",
-      img_path: "CypherSafe.mp4",
+      img_path: "algorithms.png",
       description:
-      "CypherSafe is a Python-based tool for secure file, image, and video encryption, featuring AES, Fernet, DES, RSA, and ECC (demo) encryption, AI-driven video face encryption using MediaPipe, partial image encryption, SHA-256/512 and MD5 hashing, and RSA/ECC digital signatures. It includes a face login feature for enhanced user authentication, leveraging facial recognition for secure access. The intuitive Streamlit web UI enables easy region selection for image encryption and single-click video processing.",
+      "A Python Streamlit app for encrypting files, images, and videos with AES, RSA, ECC, and AI-powered face encryption, featuring facial recognition login and digital signatures for secure access.",
         tags: [
         {
-          lang: "Python",
-          color: "#004782",
+          lang: "",
+          color: "",
         },
         
       ],  
@@ -456,7 +464,7 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "contact.jpg",
-    description: "I will reply within 24 hours.",
+    description: "",
   },
   addressSection: {
     title: "",
@@ -475,7 +483,7 @@ const socialMediaLinks = [
     link: "https://github.com/mohamed-achek",
     iconifyClassname: "simple-icons:hackerrank",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    backgroundColor: "#ffffffff", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
@@ -484,10 +492,10 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "Gmail",
-    link: "mailto:mohamedachek5@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    name: "Outlook",
+    link: "mailto:mohamedachek@outlook.com",
+    fontAwesomeIcon: "fa fa-envelope", 
+    backgroundColor: "#0077B5", 
   },
 ];
 
