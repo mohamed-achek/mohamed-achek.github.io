@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e22578f6.chunk.css",
-    "main.js": "/static/js/main.f2113915.chunk.js",
-    "main.js.map": "/static/js/main.f2113915.chunk.js.map",
+    "main.css": "/static/css/main.8808cb47.chunk.css",
+    "main.js": "/static/js/main.d809a080.chunk.js",
+    "main.js.map": "/static/js/main.d809a080.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c60692a.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c60692a.js.map",
     "static/js/2.8537c275.chunk.js": "/static/js/2.8537c275.chunk.js",
     "static/js/2.8537c275.chunk.js.map": "/static/js/2.8537c275.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.21290f827ba86a8e65e77bfadd905bd4.js": "/precache-manifest.21290f827ba86a8e65e77bfadd905bd4.js",
+    "precache-manifest.8bb9df97ad5c47b88e7db55f792f3e73.js": "/precache-manifest.8bb9df97ad5c47b88e7db55f792f3e73.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e22578f6.chunk.css.map": "/static/css/main.e22578f6.chunk.css.map",
+    "static/css/main.8808cb47.chunk.css.map": "/static/css/main.8808cb47.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/IBM-01.png": "/static/media/IBM-01.26d440f8.png",
     "static/media/IBM-02.png": "/static/media/IBM-02.f517fff0.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.2c60692a.js",
     "static/js/2.8537c275.chunk.js",
-    "static/css/main.e22578f6.chunk.css",
-    "static/js/main.f2113915.chunk.js"
+    "static/css/main.8808cb47.chunk.css",
+    "static/js/main.d809a080.chunk.js"
   ]
 }
