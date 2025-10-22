@@ -22,7 +22,7 @@ const greeting = {
   sub: "Mohamed Achek",
   logo_name: "Mohamed Achek",
   resumeLink:
-    "https://drive.google.com/file/d/1EbdhhvlgFJanJvdMalT-JQlFic9vDSao/view?usp=sharing",
+    "https://drive.google.com/file/d/1IHcYNpE26CXLpNQDasYXDboEKyFgCF7E/view?usp=sharing",
 };
 
 // home logos
